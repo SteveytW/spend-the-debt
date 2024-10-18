@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Abbracci Superyacht",
+    "price": 75000000.0,
+    "image": "../assets/images/55m_abbracci_superyacht.jpg"
+  },
+  {
+    "name": "LearJet 45 XR",
+    "price": 3950000.0,
+    "image": "../assets/images/LearJet_45_XR.jpg"
+  },
+  {
+    "name": "Mansion",
+    "price": 17500000.0,
+    "image": "../assets/images/mansion.jpg"
+  },
+  {
+    "name": "Sports Car",
+    "price": 200000.0,
+    "image": "../assets/images/sports_car.jpg"
+  },
+  {
+    "name": "Diamond Ring",
+    "price": 1000000.0,
+    "image": "../assets/images/diamond_ring.jpg"
+  },
+  {
+    "name": "rubber duck",
+    "price": 8.99,
+    "image": "../assets/images/rubber_duck.jpg"
+  },
+  {
+    "name": "Yodelling Pickle",
+    "price": 7.99,
+    "image": "../assets/images/Yodelling_Pickle.jpg"
+  },
+  {
+    "name": "Bacon Flavored Toothpaste",
+    "price": 9.99,
+    "image": "../assets/images/Bacon_Flavored_Toothpaste.jpg"
+  },
+  {
+    "name": "Nicolas Cage Sequin Pillow Cover",
+    "price": 12.99,
+    "image": "../assets/images/Nicolas_Cage_Sequin_Pillow_Cover.jpg"
+  },
+  {
+    "name": "Inflatable Dinosaur Costume",
+    "price": 39.99,
+    "image": "../assets/images/Inflatable_Dinosaur_Costume.jpg"
+  },
+  {
+    "name": "Cat Butt Tissue Holder",
+    "price": 40.95,
+    "image": "../assets/images/Cat_Butt_Tissue_Holder.jpg"
+  },
+  {
+    "name": "Life-Size Cardboard Cutout of Danny DeVito",
+    "price": 64.95,
+    "image": "../assets/images/Life-Size_Cardboard_Cutout_of_Danny_DeVito.jpg"
+  },
+  {
+    "name": "Toilet Golf Game",
+    "price": 17.99,
+    "image": "../assets/images/Toilet_Golf_Game.jpg"
+  },
+  {
+    "name": "Unicorn Meat",
+    "price": 9.99,
+    "image": "../assets/images/Unicorn_Meat.jpg"
+  },
+  {
+    "name": "Emergency Underpants",
+    "price": 11.99,
+    "image": "../assets/images/Emergency_Underpants.jpg"
+  },
+  {
+    "name": "Cat DJ Scratching Turntable",
+    "price": 25.95,
+    "image": "../assets/images/Cat_DJ_Scratching_Turntable.jpg"
+  },
+  {
+    "name": "Poop Emoji Slippers",
+    "price": 17.99,
+    "image": "../assets/images/Poop_Emoji_Slippers.jpg"
+  },
+  {
+    "name": "Chicken Harness with Leash",
+    "price": 14.99,
+    "image": "../assets/images/Chicken_Harness_with_Leash.jpg"
+  },
+  {
+    "name": "Handerpants",
+    "price": 13.32,
+    "image": "../assets/images/Handerpants.jpg"
+  },
+  {
+    "name": "Bread-Shaped Pillow",
+    "price": 25.99,
+    "image": "../assets/images/Bread-Shaped_Pillow.jpg"
+  },
+  {
+    "name": "Inflatable Tube Guy",
+    "price": 229.99,
+    "image": "../assets/images/Inflatable_Tube_Guy.jpg"
+  },
+  {
+    "name": "Unicorn Onesie Pajamas",
+    "price": 29.99,
+    "image": "../assets/images/Unicorn_Onesie_Pajamas.jpg"
+  },
+  {
+    "name": "LED Shoelaces",
+    "price": 9.96,
+    "image": "../assets/images/LED_Shoelaces.jpg"
+  },
+  {
+    "name": "Fake Belly Fanny Pack",
+    "price": 9.99,
+    "image": "../assets/images/Fake_Belly_Fanny_Pack.jpg"
+  },
+  {
+    "name": "Pickle Rick Plush Toy",
+    "price": 39.99,
+    "image": "../assets/images/Pickle_Rick_Plush_Toy.jpg"
+  },
+  {
+    "name": "Giant Gummy Bear",
+    "price": 39.99,
+    "image": "../assets/images/Giant_Gummy_Bear.jpg"
+  },
+  {
+    "name": "Rubber Horse Head Mask",
+    "price": 12.99,
+    "image": "../assets/images/Rubber_Horse_Head_Mask.jpg"
+  },
+  {
+    "name": "Pooping Pooches Calendar",
+    "price": 14.98,
+    "image": "../assets/images/Pooping_Pooches_Calendar.jpg"
+  },
+  {
+    "name": "Pug in a Mug Tea Infuser",
+    "price": 6.99,
+    "image": "../assets/images/Pug_in_a_Mug_Tea_Infuser.jpg"
+  },
+  {
+    "name": "Pizza Blanket",
+    "price": 25.88,
+    "image": "../assets/images/Pizza_Blanket.jpg"
+  },
+  {
+    "name": "Sloth Shower Curtain",
+    "price": 25.99,
+    "image": "../assets/images/Sloth_Shower_Curtain.jpg"
+  },
+  {
+    "name": "Shark Attack Bath Bomb",
+    "price": 11.99,
+    "image": "../assets/images/Shark_Attack_Bath_Bomb.jpg"
+  },
+  {
+    "name": "Crocheted Beard Beanie",
+    "price": 35.99,
+    "image": "../assets/images/Crocheted_Beard_Beanie.jpg"
+  }
+]

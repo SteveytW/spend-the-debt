@@ -1,0 +1,317 @@
+/* css/styles.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Layout */
+header,
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ecf0f1;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Debt Display */
+.debt-container {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.debt-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.debt-display-wrapper {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+
+#debt-display {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #e74c3c;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #e67e22;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #d35400;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#shop-btn {
+    background-color: #27ae60;
+}
+
+#shop-btn:hover {
+    background-color: #229954;
+}
+
+/* Item Card */
+.item-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.item-card h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.item-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.item-card p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Shopping List */
+#item-list {
+    display: none; /* Hidden until 'Choose' is clicked */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.shopping-item {
+    width: calc(33.333% - 40px);
+    height: 400px; /* Set a fixed height */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shopping-item img {
+    max-width: 100%;
+    max-height: 200px; /* Limit image height */
+    margin: 0 auto 10px auto; /* Center the image */
+    border-radius: 15px;
+    object-fit: contain; /* Ensure the image fits within the bounds */
+}
+
+.shopping-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-item p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.shopping-item.selected {
+    box-shadow: 0 0 10px rgba(46, 204, 113, 0.8);
+    border-color: #2ecc71;
+}
+
+.shopping-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.selected-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+/* Receipt */
+#receipt {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0; /* Square corners */
+    max-width: 1200px; /* Increased width */
+    margin: 40px auto;
+    padding: 30px;
+    display: none; /* Hide initially */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Shadow for separate entity */
+}
+
+#receipt h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.receipt-header,
+.receipt-footer {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.receipt-body table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-bottom: 20px;
+}
+
+.receipt-body th,
+.receipt-body td {
+    padding: 10px 15px;
+}
+
+.receipt-body th {
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.receipt-body td {
+    font-size: 1em;
+}
+
+.receipt-footer p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.9em;
+}
+
+/* Buy Me a Coffee Link */
+.coffee-link {
+    margin-top: 20px;
+}
+
+.coffee-link img {
+    width: 200px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .shopping-item {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 600px) {
+    .shopping-item {
+        width: calc(100% - 40px);
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    #debt-display {
+        font-size: 2em;
+    }
+
+    #receipt {
+        max-width: 100%;
+        padding: 20px;
+    }
+}

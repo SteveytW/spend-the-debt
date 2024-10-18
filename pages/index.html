@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spend the National Debt</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Spend the National Debt</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="debt-explanation.html">About the Debt</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="debt-container">
+            <h2>U.S. National Debt</h2>
+            <div class="debt-display-wrapper">
+                <div id="debt-display">$0.00</div>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button id="random-item-btn">Random</button>
+            <button id="choose-item-btn">Choose</button>
+        </div>
+
+        <div id="item-card"></div>
+        <div id="item-list"></div>
+        <button id="shop-btn" style="display: none;">Calculate Purchases</button>
+        <div id="receipt"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 National Debt Fun Site</p>
+        <div class="coffee-link">
+            <a href="https://www.buymeacoffee.com/yourusername" target="_blank">
+                <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee">
+            </a>
+        </div>
+    </footer>
+
+    <script src="../lib/debt-fetch.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
